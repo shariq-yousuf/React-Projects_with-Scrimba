@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  /* padding: 0; */
 }
 
 body {
@@ -24,5 +26,25 @@ body {
 
 .project-title {
   color: #deebf8;
-  font-weight: normal;
+  font-weight: 600px;
+}
+
+main {
+  background-color: #282d35;
+  color: white;
+  height: 450px;
+  padding: 57px 27px;
+}
+
+.heading {
+  font-size: 40px;
+}
+
+.facts {
+  margin-top: 37px;
+}
+
+main li {
+  font-size: 1rem;
+  margin: 20px 0;
 }
