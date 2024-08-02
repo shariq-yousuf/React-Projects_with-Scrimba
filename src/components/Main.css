@@ -15,7 +15,7 @@ main {
 }
 
 .project-img {
-  width:100%;
+  width: 100%;
   height: 130px;
   border-radius: 5px;
 }
@@ -28,9 +28,14 @@ main {
 .project-icons i {
   font-size: 1.5rem;
   cursor: pointer;
-  transition: all 100ms;
+  transition: all 300ms;
 }
 
 .project-icons i:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
+}
+
+.project-icons a {
+  text-decoration: none;
+  color: inherit;
 }
