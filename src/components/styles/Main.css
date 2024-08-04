@@ -1,0 +1,7 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  color: #0d1127;
+}
