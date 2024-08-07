@@ -1,9 +1,11 @@
-import logo from "../assets/airbnb-logo.png"
-
 export default function Navbar() {
   return (
     <nav>
-      <img src={logo} alt="airbnb-logo" className="nav--logo" />
+      <img
+        src={"/public/assets/airbnb-logo.png"}
+        alt="airbnb-logo"
+        className="nav--logo"
+      />
     </nav>
   )
 }
