@@ -21,7 +21,7 @@ nav {
 }
 
 section {
-  padding: 0 20px;
+  padding: 20px;
 }
 
 .hero {
@@ -52,7 +52,7 @@ section {
 .card {
   margin: 18px;
   width: 176px;
-  font-size: 12px;
+  font-size: 14px;
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
@@ -73,7 +73,7 @@ section {
   border-radius: 9px;
 }
 
-.flag-tag {
+.badge {
   padding: 4px 6px;
   background-color: white;
   border-radius: 2px;
@@ -99,6 +99,10 @@ section {
 
 .review-count {
   color: #918e9b;
+}
+
+.price-div {
+  margin-top: auto;
 }
 
 .price {
