@@ -11,11 +11,11 @@ export default function Card(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img src={`/public/assets/${coverImg}`} className="card-img" />
+        <img src={`/assets/${coverImg}`} className="card-img" />
         {badgeText && <span className="badge">{badgeText}</span>}
       </div>
       <div className="reviews">
-        <img src={"/public/assets/star.png"} alt="star" className="star-img" />
+        <img src={"/assets/star.png"} alt="star" className="star-img" />
         <span>
           {stats.rating}{" "}
           <span className="review-count">
