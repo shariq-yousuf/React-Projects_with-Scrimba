@@ -9,6 +9,11 @@ body {
   color: white;
 }
 
+#root {
+  width: 550px;
+  margin: 0 auto;
+}
+
 nav {
   height: 70px;
   display: flex;
@@ -106,4 +111,10 @@ section {
 
 .price {
   font-weight: bold;
+}
+
+@media screen and (max-width: 720px) {
+  #root {
+    width: 100%;
+  }
 }
