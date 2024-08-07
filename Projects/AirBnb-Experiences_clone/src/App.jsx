@@ -2,10 +2,10 @@ import React from "react"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Card from "./components/Card"
-import cardData from "./data/data"
+import data from "./data/data"
 
 export default function App() {
-  const cardArr = cardData.map((card) => {
+  const cards = data.map((card) => {
     return (
       <Card
         img={card.coverImg}
@@ -22,7 +22,7 @@ export default function App() {
     <div>
       <Navbar />
       <Hero />
-      {cardArr}
+      <section className="cards-list">{cards}</section>
     </div>
   )
 }
