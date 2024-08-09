@@ -1,8 +1,6 @@
 import "./styles/Card.css"
 
-export default function Card(props) {
-  const { img, title, description, liveLink, github } = props
-
+export default function Card({ img, title, description, liveLink, github }) {
   return (
     <div className="project-container">
       <img className="project-img" src={img} alt={`${title}-img`} />
