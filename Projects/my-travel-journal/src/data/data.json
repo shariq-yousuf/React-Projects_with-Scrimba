@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "Karachi",
+    "location": "Pakistan",
+    "googleMapsUrl": "https://maps.app.goo.gl/dDU7kcL2CAgnE2zT7",
+    "startDate": "12 Jan, 2021",
+    "endDate": "24 Jan, 2021",
+    "description": "Karachi, Pakistan's dynamic heart, is a vibrant metropolis. As the nation's economic powerhouse, it draws locals & tourists alike. Its diverse culture, bustling markets, and beautiful coastline offer an unforgettable experience.",
+    "imageUrl": "https://images.pexels.com/photos/14427300/pexels-photo-14427300.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  }
+]

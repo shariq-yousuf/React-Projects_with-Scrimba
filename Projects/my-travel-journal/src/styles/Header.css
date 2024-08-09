@@ -4,6 +4,8 @@ header {
   justify-content: center;
   align-items: center;
   gap: 8px;
+  height: 55px;
+  font-family: myFont-medium;
 }
 
 .globe-icon {
