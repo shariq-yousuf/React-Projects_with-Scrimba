@@ -4,6 +4,13 @@
   background-color: aqua;
   padding: 10px;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-container * {
+  margin: 0;
 }
 
 .project-img {
@@ -15,6 +22,7 @@
 .project-icons {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 5px;
 }
 
 .project-icons i {

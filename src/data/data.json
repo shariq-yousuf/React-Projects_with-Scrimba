@@ -6,5 +6,13 @@
     "img": "https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/react_projects-scrimba/projects-ss/info-site",
     "liveLink": "https://react-info-site-sy.netlify.app/",
     "github": "https://github.com/shariq-yousuf/React-Projects_with-Scrimba/tree/main/Projects/React-info-site"
+  },
+  {
+    "id": 2,
+    "title": "My Travel Journal",
+    "description": "My adventures, captured in words and memories.",
+    "img": "/my-travel-journal.png",
+    "liveLink": "https://my-travel-journal-sy.netlify.app/",
+    "github": "https://github.com/shariq-yousuf/React-Projects_with-Scrimba/tree/main/Projects/my-travel-journal"
   }
 ]
