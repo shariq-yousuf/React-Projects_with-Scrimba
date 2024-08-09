@@ -8,7 +8,7 @@ export default function Place(props) {
         <div className="place-location">
           <img src="/location.svg" alt="" />
           <span>{props.location.toUpperCase()}</span>
-          <a className="gps-link" href={props.googleMapsUrl}>
+          <a className="gps-link" href={props.googleMapsUrl} target="_blank">
             View on Google Maps
           </a>
         </div>

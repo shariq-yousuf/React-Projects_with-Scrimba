@@ -8,5 +8,55 @@
     "endDate": "24 Jan, 2021",
     "description": "Karachi, Pakistan's dynamic heart, is a vibrant metropolis. As the nation's economic powerhouse, it draws locals & tourists alike. Its diverse culture, bustling markets, and beautiful coastline offer an unforgettable experience.",
     "imageUrl": "https://images.pexels.com/photos/14427300/pexels-photo-14427300.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 2,
+    "title": "Peshawar",
+    "location": "Pakistan",
+    "googleMapsUrl": "https://maps.app.goo.gl/pFkQTEVU7pgyJ9aQ9",
+    "startDate": "15 Feb, 2022",
+    "endDate": "25 Feb, 2022",
+    "description": "Peshawar, a historic gateway to the East, boasts rich culture and vibrant bazaars. Its ancient architecture and warm Pashtun hospitality offer a unique experience for travelers seeking authentic Pakistan.",
+    "imageUrl": "https://res.cloudinary.com/www-travelpakistani-com/image/upload/v1617894191/landmark_images/mc4woevaimmjot8cyenf.webp"
+  },
+  {
+    "id": 3,
+    "title": "Quetta",
+    "location": "Pakistan",
+    "googleMapsUrl": "https://maps.app.goo.gl/MiYCV9BkLgdPR5hP8",
+    "startDate": "05 Dec, 2022",
+    "endDate": "17 Dec, 2022",
+    "description": "Quetta, the serene capital of Balochistan, offers a unique blend of mountain charm and cultural richness. Known as the 'Fruit Garden of Pakistan,' it boasts lush landscapes and delectable produce. Visitors are captivated by its tranquil ambiance and the warm hospitality of its people",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Quaid_e_Azam_Residency_Ziarat.jpg/800px-Quaid_e_Azam_Residency_Ziarat.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Lahore",
+    "location": "Pakistan",
+    "googleMapsUrl": "https://maps.app.goo.gl/QZcaHuzrsWrzNeFF7",
+    "startDate": "09 Apr, 2023",
+    "endDate": "16 Apr, 2023",
+    "description": "Lahore, the cultural heart of Pakistan, is a captivating blend of history and modernity. Known as the 'City of Gardens,' it boasts exquisite Mughal architecture, vibrant bazaars, and a rich artistic heritage. A melting pot of diverse cultures, Lahore offers an enchanting experience for every visitor.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Badshahi_Mosquee%2C_Lahore.jpg/250px-Badshahi_Mosquee%2C_Lahore.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Azad Kashmir",
+    "location": "Pakistan",
+    "googleMapsUrl": "https://maps.app.goo.gl/2auvVWYbwdDAyJFB9",
+    "startDate": "19 Nov, 2023",
+    "endDate": "06 Dec, 2023",
+    "description": "Azad Kashmir, a picturesque region nestled in the Himalayas, offers breathtaking natural beauty and a rich cultural heritage. Known for its serene lakes, verdant valleys, and snow-capped peaks, it's a paradise for nature enthusiasts.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3IV2uG3pvfORAPPhXGKc12g5iOLNAcin7Dg&s"
+  },
+  {
+    "id": 6,
+    "title": "Gilgit Baltistan",
+    "location": "Pakistan",
+    "googleMapsUrl": "https://maps.app.goo.gl/Ss3YLzZG2zj16xjcA",
+    "startDate": "10 Jan, 2024",
+    "endDate": "26 Jan, 2024",
+    "description": "Gilgit-Baltistan, a crown jewel of Pakistan, is a breathtaking region of towering peaks, pristine glaciers, and crystal-clear lakes. Home to K2, the world's second-highest mountain, it's a paradise for adventurers and nature lovers. This region offers an unforgettable journey through the heart of the Himalayas.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7iTJ4l5tnZVWw1UtwlPnNjBMcOPCa8WJCjw&s"
   }
 ]
