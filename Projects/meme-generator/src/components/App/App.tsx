@@ -1,8 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react"
+import "./App.css"
+import Header from "../Header/Header"
 
 function App() {
-  return <h2>test</h2>
+  return (
+    <>
+      <Header />
+    </>
+  )
 }
 
 export default App
