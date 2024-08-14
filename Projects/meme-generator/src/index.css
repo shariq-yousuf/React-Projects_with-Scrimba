@@ -1,6 +1,6 @@
 @font-face {
   font-family: myFont;
-  src: url("/fonts/Karla-Bold.ttf");
+  src: url("/fonts/Karla-Regular.ttf");
 }
 
 * {
@@ -11,4 +11,15 @@
 
 body {
   font-family: myFont;
+}
+
+main {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 720px) {
+  main {
+    width: 100%;
+  }
 }
