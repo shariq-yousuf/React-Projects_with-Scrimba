@@ -7,8 +7,11 @@ header {
   color: white;
 }
 
-.header-logo {
-  width: 32px;
-  height: 27px;
+.header-image {
+  height: 30px;
   margin: 0 8px;
+}
+
+.header-title {
+  font-size: 22px;
 }
