@@ -11,11 +11,16 @@
 
 body {
   font-family: myFont;
+
+  /* temporary */
+  background-color: black;
+  color: white;
 }
 
 main {
   max-width: 550px;
   margin: 0 auto;
+  padding: 30px;
 }
 
 @media screen and (max-width: 720px) {
