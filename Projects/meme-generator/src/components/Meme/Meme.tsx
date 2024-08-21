@@ -20,6 +20,15 @@ export default function Meme() {
     }))
   }
 
+  function handleChange(e: { target: { name: string; value: string } }) {
+    const { name, value } = e.target
+
+    setMeme((prev) => ({
+      ...prev,
+      [name]: value,
+    }))
+  }
+
   return (
     <main>
       <div className="form-container">
@@ -32,6 +41,9 @@ export default function Meme() {
               placeholder="Shut up"
               autoFocus
               required
+              onChange={handleChange}
+              name="topText"
+              value={meme.topText}
             />
           </label>
           <label htmlFor="bottom-text">
@@ -40,6 +52,9 @@ export default function Meme() {
               id="bottom-text"
               type="text"
               placeholder="and take my money"
+              onChange={handleChange}
+              name="bottomText"
+              value={meme.bottomText}
             />
           </label>
         </div>
@@ -47,7 +62,12 @@ export default function Meme() {
           Get a new meme image
         </button>
       </div>
-      <img className="meme-img" src={meme.randomImage} alt="meme img" />
+
+      <div className="meme">
+        <img className="meme-img" src={meme.randomImage} alt="meme img" />
+        <h2 className="meme-text top">{meme.topText}</h2>
+        <h2 className="meme-text bottom">{meme.bottomText}</h2>
+      </div>
     </main>
   )
 }
