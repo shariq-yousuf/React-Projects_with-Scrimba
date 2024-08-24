@@ -14,5 +14,13 @@
     "img": "/my-travel-journal.png",
     "liveLink": "https://my-travel-journal-sy.netlify.app/",
     "github": "https://github.com/shariq-yousuf/React-Projects_with-Scrimba/tree/main/Projects/my-travel-journal"
+  },
+  {
+    "id": 3,
+    "title": "Meme Generator",
+    "description": "Create memes in seconds! Choose from a huge library of templates and add your own text.",
+    "img": "/meme-generator.png",
+    "liveLink": "https://meme-generator-sy.netlify.app/",
+    "github": "https://github.com/shariq-yousuf/React-Projects_with-Scrimba/tree/main/Projects/meme-generator"
   }
 ]
