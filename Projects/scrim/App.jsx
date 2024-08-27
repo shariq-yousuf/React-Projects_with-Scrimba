@@ -49,9 +49,13 @@ export default function App() {
     await setDoc(docRef, { body: text, updatedAt: Date.now() }, { merge: true })
   }
 
-  async function deleteNote(noteId) {
+  async function deleteNote(e, noteId) {
+    e.stopPropagation()
+
     const docRef = doc(db, "notes", noteId)
     await deleteDoc(docRef)
+
+    setCurrentNoteId(notes[0]?.id)
   }
 
   return (
