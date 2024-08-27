@@ -42,7 +42,7 @@ export default function App() {
 
   React.useEffect(() => {
     const timeoutId = setTimeout(() => {
-      if (tempNoteText !== currentNote.body) {
+      if (currentNote && tempNoteText !== currentNote.body) {
         updateNote(tempNoteText)
       }
     }, 500)
@@ -71,7 +71,7 @@ export default function App() {
     const docRef = doc(db, "notes", noteId)
     await deleteDoc(docRef)
 
-    setCurrentNoteId(notes[0]?.id)
+    setCurrentNoteId("")
   }
 
   return (
