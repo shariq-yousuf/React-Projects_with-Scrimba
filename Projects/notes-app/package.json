@@ -1,5 +1,5 @@
 {
-  "name": "scrim",
+  "name": "notes-app",
   "description": "https://v2.scrimba.com/learn-react-c0e/~04k",
   "scripts": {
     "start": "vite",
