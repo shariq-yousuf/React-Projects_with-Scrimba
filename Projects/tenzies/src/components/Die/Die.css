@@ -7,9 +7,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Karla", sans-serif;
-  font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
   font-size: 2rem;
+  cursor: pointer;
 }
