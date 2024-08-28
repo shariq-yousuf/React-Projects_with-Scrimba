@@ -11,7 +11,7 @@
     "id": 2,
     "title": "My Travel Journal",
     "description": "My adventures, captured in words and memories.",
-    "img": "/my-travel-journal.png",
+    "img": "https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/react_projects-scrimba/my-journal",
     "liveLink": "https://my-travel-journal-sy.netlify.app/",
     "github": "https://github.com/shariq-yousuf/React-Projects_with-Scrimba/tree/main/Projects/my-travel-journal"
   },
@@ -19,8 +19,16 @@
     "id": 3,
     "title": "Meme Generator",
     "description": "Create memes in seconds! Choose from a huge library of templates and add your own text.",
-    "img": "/meme-generator.png",
+    "img": "https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/react_projects-scrimba/meme-generator",
     "liveLink": "https://meme-generator-sy.netlify.app/",
     "github": "https://github.com/shariq-yousuf/React-Projects_with-Scrimba/tree/main/Projects/meme-generator"
+  },
+  {
+    "id": 4,
+    "title": "Notes App",
+    "description": "Built with React and powered by Firebase Firestore. Leveraging the flexibility of React-Split and React-MDE.",
+    "img": "https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/react_projects-scrimba/notes-app",
+    "liveLink": "https://notes-app-sy.netlify.app/",
+    "github": "https://github.com/shariq-yousuf/React-Projects_with-Scrimba/tree/main/Projects/notes-app"
   }
 ]
