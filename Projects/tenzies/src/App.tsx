@@ -68,11 +68,13 @@ function App() {
   }
 
   function holdDice(id: string) {
-    setdice((prevDice) =>
-      prevDice.map((die) => {
-        return die.id === id ? { ...die, isHeld: !die.isHeld } : die
-      })
-    )
+    if (!tenzies) {
+      setdice((prevDice) =>
+        prevDice.map((die) => {
+          return die.id === id ? { ...die, isHeld: !die.isHeld } : die
+        })
+      )
+    }
   }
 
   const diceElements = dice.map((die) => (
