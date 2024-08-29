@@ -7,6 +7,10 @@ import Die from "./components/Die/Die"
 function App() {
   const [dice, setdice] = useState(allNewDice())
   const [tenzies, setTenzies] = useState(false)
+  const [rolls, setRolls] = useState(1)
+  const [bestScore, setBestScore] = useState(
+    Number(localStorage.getItem("Best Score"))
+  )
 
   useEffect(() => {
     const allHeld = dice.every((die) => die.isHeld)
@@ -14,9 +18,20 @@ function App() {
 
     if (allHeld && allSameValue) {
       setTenzies(true)
-      console.log("You won!")
     }
   }, [dice])
+
+  useEffect(() => {
+    if (tenzies) {
+      setBestScore((prevBestScore) =>
+        rolls < prevBestScore || prevBestScore === 0 ? rolls : prevBestScore
+      )
+    }
+  }, [tenzies])
+
+  useEffect(() => {
+    localStorage.setItem("Best Score", JSON.stringify(bestScore))
+  }, [bestScore])
 
   function generateNewDie() {
     return {
@@ -37,14 +52,18 @@ function App() {
 
   function rollDice() {
     if (tenzies) {
-      setdice(allNewDice())
       setTenzies(false)
+      setRolls(1)
+      setdice(allNewDice())
+      // setBestScore(0)
     } else {
       setdice((prevDice) =>
         prevDice.map((die) => {
           return die.isHeld ? die : generateNewDie()
         })
       )
+
+      setRolls((prevRolls) => prevRolls + 1)
     }
   }
 
@@ -83,6 +102,10 @@ function App() {
         </p>
       </div>
       <div className="dice-container">{diceElements}</div>
+      <div className="scores">
+        <p className="rolls-count">Rolls: {rolls}</p>
+        <p className="total-rolls">Best Score: {bestScore}</p>
+      </div>
       <button className="roll-btn" onClick={rollDice}>
         {tenzies ? "New Game" : "Roll"}
       </button>
