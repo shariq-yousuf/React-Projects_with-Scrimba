@@ -30,5 +30,13 @@
     "img": "https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/react_projects-scrimba/notes-app",
     "liveLink": "https://notes-app-sy.netlify.app/",
     "github": "https://github.com/shariq-yousuf/React-Projects_with-Scrimba/tree/main/Projects/notes-app"
+  },
+  {
+    "id": 5,
+    "title": "Tenzies",
+    "description": "TenZies is a dice-rolling game where you try to make all dice the same number. Beat your high score!",
+    "img": "https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/react_projects-scrimba/tenzies",
+    "liveLink": "https://tenzies-sy.netlify.app/",
+    "github": "https://github.com/shariq-yousuf/React-Projects_with-Scrimba/tree/main/Projects/tenzies"
   }
 ]
